@@ -36,7 +36,7 @@ if(num.samples == 1){
   swath_data_filtered <- filterMsLevel(swath_data, msLevel = 1L)
   xsetSWATH <- as(swath_data_filtered, 'xcmsSet')
   
-  DIAtable <- as.data.frame(DIAtable@peaks)
+  DIAtable <- as.data.frame(xsetSWATH@peaks)
   colnames(DIAtable)[9] <- "intMax"
   DIAtable <- DIAtable[order(DIAtable[,1]),]
   row.names(DIAtable) <- 1:nrow(DIAtable)
