@@ -1,6 +1,6 @@
 ###############################################################
 #This is the main script to perform DIA SWATH feature extraction and annotation
-#Sam Shen, 2020-07-28
+#Jian Guo, Sam Shen, 2020-07-28
 #Copyright @ University of British Columbia
 ###############################################################
 #Parameters for feature extraction
