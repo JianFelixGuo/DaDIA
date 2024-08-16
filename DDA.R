@@ -1,5 +1,5 @@
 ###############################################################
-#This is the main script to perform DDA feature extraction and annotation
+###This is the main script to perform DDA feature extraction and annotation
 #Sam Shen 2020-08-06
 #Copyright @ University of British Columbia
 ###############################################################
